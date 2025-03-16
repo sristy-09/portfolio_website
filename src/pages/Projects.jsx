@@ -5,7 +5,7 @@ const projects = [
       "A fully functional bookstore management system which have feature like user authentication where user can access their own favourite books and author can manage their books. These all operation can be managed by admin which oversees the whole process. ",
     image: null,
     technologies: ["MongoDB", "ExpressJS", "ReactJs", "NodeJS", "Tailwind CSS"],
-    githubUrl: "https://github.com/sristy-09/book_mngmt.git",
+    githubUrl: "https://github.com/sristy-09/KitLib.git",
   },
   {
     title: "E-commerce website",
