@@ -1,3 +1,6 @@
+import Ecommerce from "../assets/ecommerce.png";
+import Inventory from "../assets/inventory.png";
+
 const projects = [
   {
     title: "BookStore API",
@@ -11,7 +14,7 @@ const projects = [
     title: "E-commerce website",
     description:
       "A comprehensive, full stack E-commerce website where user can buy and pay for the things online.",
-    image: null,
+    image: Ecommerce,
     technologies: [
       "MongoDB",
       "ExpressJS",
@@ -26,7 +29,7 @@ const projects = [
     title: "Inventory Management System",
     description:
       "A full-stack web application built using Next.js that helps businesses efficiently manage their product inventory, stock levels, and sales records in real-time. It allows admins to track items, update quantities, and monitor inventory status through an intuitive dashboard interface.",
-    image: null,
+    image: Inventory,
     technologies: ["NextJs", "Prisma", "Stack Auth"],
     githubUrl: "https://github.com/sristy-09/Inventory-management",
   },
