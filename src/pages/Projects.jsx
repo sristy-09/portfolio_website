@@ -1,19 +1,34 @@
 const projects = [
   {
-    title: "BookStore Management",
+    title: "BookStore API",
     description:
-      "A fully functional bookstore management system which have feature like user authentication where user can access their own favourite books and author can manage their books. These all operation can be managed by admin which oversees the whole process. ",
+      "The Bookstore API is a backend web application designed to manage books, authors, and customer records for an online bookstore. It provides a set of RESTful API endpoints that allow users to perform CRUD (Create, Read, Update, Delete) operations on book data efficiently.",
     image: null,
-    technologies: ["MongoDB", "ExpressJS", "ReactJs", "NodeJS", "Tailwind CSS"],
-    githubUrl: "https://github.com/sristy-09/KitLib.git",
+    technologies: ["MongoDB", "ExpressJS", "NodeJS"],
+    githubUrl: "https://github.com/sristy-09/bookstore-api",
   },
   {
     title: "E-commerce website",
     description:
       "A comprehensive, full stack E-commerce website where user can buy and pay for the things online.",
     image: null,
-    technologies: ["MongoDB", "ExpressJS", "ReactJs", "NodeJS", "Tailwind CSS"],
-    githubUrl: "https://github.com/sristy-09",
+    technologies: [
+      "MongoDB",
+      "ExpressJS",
+      "ReactJs",
+      "NodeJS",
+      "Tailwind CSS",
+      "Redux Toolkit",
+    ],
+    githubUrl: "https://github.com/sristy-09/Mern-Ecommerce",
+  },
+  {
+    title: "Inventory Management System",
+    description:
+      "A full-stack web application built using Next.js that helps businesses efficiently manage their product inventory, stock levels, and sales records in real-time. It allows admins to track items, update quantities, and monitor inventory status through an intuitive dashboard interface.",
+    image: null,
+    technologies: ["NextJs", "Prisma", "Stack Auth"],
+    githubUrl: "https://github.com/sristy-09/Inventory-management",
   },
 ];
 

@@ -56,7 +56,7 @@ function About() {
             data-aos="fade-left"
           >
             <h3 className="text-xl font-bold mb-4">Experience</h3>
-            <ul className="space-y-4">
+            {/* <ul className="space-y-4">
               <li>
                 <h4 className="font-semibold">Full Stack Developer Intern</h4>
                 <p className="text-gray-600">Stellar Tech Labs</p>
@@ -65,9 +65,9 @@ function About() {
               <li>
                 {/*  <h4 className="font-semibold">Frontend Developer</h4>
                 <p className="text-gray-600">Digital Agency XYZ</p>
-                <p className="text-gray-500">2017 - 2019</p> */}
+                <p className="text-gray-500">2017 - 2019</p> 
               </li>
-            </ul>
+            </ul> */}
           </div>
         </div>
       </div>
